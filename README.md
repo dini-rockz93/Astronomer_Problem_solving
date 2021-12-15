@@ -63,8 +63,8 @@ inefficient and could be improved.
 **NOTE**
 
 Python version used 3.8.0
-
 Once the script, you will be prompted for input to enter the product list
+
 ---
 
 ### Assumptions:
