@@ -6,6 +6,7 @@ create a proof of concept for their new sales system.
 
 They sell three products:
 
+```
 +--------------+------+--------+
 |   Product    | Code | Price  |
 +--------------+------+--------+
@@ -13,6 +14,7 @@ They sell three products:
 | Green_Widget | G01  | $24.95 |
 | Blue_Widget  | B01  | $7.95  |
 +--------------+------+--------+
+```
 
 To incentivise customers to spend more, delivery costs are reduced based on the amount
 spent. Orders under $50 cost $4.95. For orders under $90, delivery costs $2.95. Orders of
@@ -29,6 +31,7 @@ delivery and offer rules.
 
 Here are some example baskets and expected totals to help you check your implementation.
 
+```
 +---------------------+--------+
 |      Products       | Total  |
 +---------------------+--------+
@@ -37,6 +40,7 @@ Here are some example baskets and expected totals to help you check your impleme
 | R01,G01             | $60.85 |
 | B01,B01,R01,R01,R01 | $98.27 |
 +---------------------+--------+
+```
 
 ### Expectsions 
 
